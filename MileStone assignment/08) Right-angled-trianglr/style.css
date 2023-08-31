@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box h1{
+     margin-bottom: 10px;
+}
+
+.box p{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+#input,button {
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+button{
+   border-radius: 8px;
+}

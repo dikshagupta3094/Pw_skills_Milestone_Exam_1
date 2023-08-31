@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Splitter</title>
+</head>
+<body>
+    <p>Cost of dish: </p>
+    <input type="number"  id="PriceOfDish" placeholder="Cost of dish" onkeypress="CostOfDish(event)">
+    <p id="display"></p>
+    <p>Enter number of people Sharing:</p>
+    <input type="number" id="people">
+    <button id="btn">Calaculate</button>
+    <p id="result"></p>
+</body>
+<script src="script.js"></script>
+</html>
+
+
+<!-- dishPrice.addEventListener('keypress', function CostOfDish(e){
+    if(e.key==="Enter"){
+     //Value input
+    let dishPriceValue = parseInt(dishPrice.value);
+    dishPrice.value = "";
+    console.log("Value",dishPriceValue);
+  
+  // Value append to p
+     let display  = document.getElementById('display')
+     let PValue = document.createTextNode(dishPriceValue)    
+     display.appendChild(PValue)
+     
+      //value stored in array
+        array.push(dishPriceValue);
+        console.log(array);
+      //  console.log('Total',sum);
+        display.innerHTML+= `<br>`
+    }
+     return array;
+  }) -->
+  

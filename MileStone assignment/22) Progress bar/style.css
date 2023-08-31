@@ -1,0 +1,45 @@
+
+*{
+    margin: 0px;
+    padding :0px;
+    box-sizing: border-box;
+    outline: none;
+    overflow-x: hidden;
+}
+
+nav{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: #eeeeee;
+    width: 100%;
+    box-shadow: 5px 0px 15px rgba(0,0,0,0.2);  
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#border{
+  height: 5px;
+  width: 0;
+  background-color: #6ebce3;
+}
+section{
+    margin: 0px 80px ;
+    
+}
+.heading{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.para{
+    font-size: 25px;
+    line-height: 1.5;
+}

@@ -1,0 +1,35 @@
+
+.todolist{
+    font-size: 20px;   
+}
+
+ul li{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ border: 0.125px solid black;
+ border-radius: 8px;
+ margin-bottom: 12px;
+ padding: 3px;
+ background-color: #fff;
+}
+ 
+ul li p{
+    flex-grow: 1;
+    padding: 2px;
+}
+
+.btn{
+    font-weight: 700;
+    padding: 8px;
+}
+.btn:hover{
+    text-decoration: underline;
+}
+.deleteBtn{
+    color: #ff0000;
+}
+
+.editBtn{
+    color: green;
+}

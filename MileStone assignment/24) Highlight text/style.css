@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.heading{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+#paragraph{
+    margin: 10px;
+    padding: 40px;
+    font-size: 22px;
+    line-height: 1.5;
+    color: rgb(58, 57, 57);
+}
+
+.highlight{
+    background-color: #ffff00;
+}
